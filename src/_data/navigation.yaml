@@ -1,10 +1,16 @@
 ---
 items:
-  - text: Menu One
+  - text: Home
     url: "#"
-  - text: Menu Two
+  - text: Filecoin
     url: "#"
-  - text: Menu Three
+  - text: Software
+    url: "#"
+  - text: Storage
     url: "#"
   - text: Blog
     url: "/blog"
+  - text: About
+    url: "#"
+  - text: Contact Us
+    url: "#"
