@@ -1,16 +1,17 @@
 ---
 items:
   - text: Home
-    url: "#"
+    url: "/"
   - text: Filecoin
     url: "#"
   - text: Software
-    url: "#"
+    url: "/software"
   - text: Storage
-    url: "#"
+    url: "/storage"
   - text: Blog
     url: "/blog"
   - text: About
-    url: "#"
+    url: "/about"
   - text: Contact Us
-    url: "#"
+    url: "/contact"
+    class: 'btn-outline'

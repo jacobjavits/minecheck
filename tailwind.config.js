@@ -32,12 +32,19 @@ module.exports = {
       accent: {
         DEFAULT: "#13DA5A",
       },
+      table: {
+        light: "#193049",
+        dark: "#172b44",
+        border: "#043D75",
+      },
     },
     fontFamily: {
       sans: ["Sen", "sans-serif"],
       display: ["Inter", "sans-serif"],
     },
     letterSpacing: {
+      normal: "0",
+      wide: "0.1em",
       widest: "0.2em",
     },
     extend: {
@@ -47,12 +54,17 @@ module.exports = {
         map: "url('/static/img/map-bg.jpg')",
         pickaxe: "url('/static/img/pick-axe.jpg')",
         constellations: "url('/static/img/constellations-bg.jpg')",
+        servers: "url('/static/img/server-bg.jpg')"
       }),
       fontSize: {
-        'callout': "1.375rem",
+        callout: "1.375rem",
+        "2xl": "1.625rem",
       },
       flex: {
-        '50': '1 0 50%'
+        50: "1 0 50%",
+      },
+      boxShadow: {
+        table: '0px 12px 36px rgba(0, 0, 0, 0.14)'
       }
     },
   },

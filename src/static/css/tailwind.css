@@ -63,7 +63,6 @@
 }
 
 /*Your Custom CSS Goes here*/
-
 h1 {
   @apply text-4xl mb-3 lg:text-7xl;
 }
@@ -74,6 +73,26 @@ h3 {
 
 .btn {
   @apply bg-accent rounded px-16 py-4 uppercase inline-block font-bold;
+}
+
+.btn:hover {
+  @apply bg-white;
+}
+
+.btn-outline {
+  @apply border-2 border-accent rounded text-accent uppercase px-6 py-3 text-sm tracking-wide;
+}
+
+.btn-outline:hover {
+  @apply bg-accent text-white;
+}
+
+.btn-faint {
+  @apply bg-accent bg-opacity-25 text-accent text-xs uppercase rounded px-4 py-3 inline-block tracking-wide;
+}
+
+.btn-faint:hover {
+  @apply bg-opacity-100 text-white;
 }
 
 /* Syntax Highlighting*/
