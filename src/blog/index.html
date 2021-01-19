@@ -6,41 +6,46 @@ layout: blog
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-        <article class="my-8">
-            {% if post.data.image %}
-                {{ post.data.image }}
+        {% if loop.first == true %}
+            <article class="my-8 sm:flex">
             {% else %}
-                Untitled
-            {% endif %}
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <a class="text-white" href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
+                <article class="my-8">
+                {% endif %}
+
+                {% if post.data.image %}
+                    <div>
+                        <img src="{{ post.data.image }}"/>
+                    </div>
+                {% endif %}
+
+                <div class="bg-table-light p-6">
+                    <h2 class="font-bold text-lg sm:text-3xl mb-4">
+                        <a class="text-white" href="{{ post.url | url }}">
+                            {% if post.data.title %}
+                                {{ post.data.title }}
+                            {% endif %}
+                        </a>
+                    </h2>
+
+                    {% if post.data.description %}
+                        <p class="font-display text-white text-sm sm:text-base mb-4">
+                            {{ post.data.description }}
+                        </p>
                     {% endif %}
-                </a>
-            </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
-                <time>
-                    {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
 
-                </time>
-            </p>
-            {% if post.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
-                    {{ post.data.description }}
-                </p>
-            {% endif %}
+                    <p class="mb-4">
+                        <a href="{{ post.url | url }}" class="text-accent sm:text-lg">
+                            Read more
+                        </a>
+                    </p>
 
-            <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
-            </p>
+                    <p class="text-xs sm:text-base font-display text-gray mb-0">
+                        Date posted: <time>
+                            {{ post.date | readableDate }}
+                        </time>
+                    </p>
+                </div>
 
-        </article>
-    {% endfor %}
-</section>
+            </article>
+        {% endfor %}
+    </section>
