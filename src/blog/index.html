@@ -8,7 +8,7 @@ layout: blog
     {% for post in postslist | reverse %}
 
     {% if loop.first == true %}
-    <article class="mb-6 md:mb-0 md:col-span-full md:flex rounded-md overflow-hidden">
+    <article class="mb-6 md:mb-0 md:col-span-full md:flex rounded-md shadow-xl overflow-hidden">
         {% if post.data.image %}
         <div class="md:flex-1">
             <img class="md:object-cover md:h-full" src="{{ post.data.image }}" />
@@ -58,10 +58,10 @@ layout: blog
 
     {% else %}
 
-    <article class="mb-6 md:mb-0 rounded-md overflow-hidden">
+    <article class="mb-6 md:mb-0 rounded-md shadow-xl overflow-hidden">
         {% if post.data.image %}
         <div>
-            <img class="md:object-cover md:h-full" src="{{ post.data.image }}" />
+            <img class="md:object-cover md:h-full max-h-32 w-full" src="{{ post.data.image }}" />
         </div>
         {% endif %}
 
@@ -76,7 +76,7 @@ layout: blog
                     </a>
                 </h2>
                 {% if post.data.categories %}
-                <p class="text-gray tracking-widest uppercase mb-3 md:mb-10">
+                <p class="text-gray tracking-widest uppercase mb-3 md:mb-6">
                     {{ post.data.categories }}
                 </p>
                 {% endif %}

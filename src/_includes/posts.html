@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<header class="blog-header relative pt-36 md:pt-72 px-6 flex flex-col border-blue-highlight border-b-2 bg-top bg-cover md:bg-fixed"
+<header
+    class="blog-header relative pt-36 md:pt-72 px-6 flex flex-col border-blue-highlight border-b-2 bg-top bg-cover md:bg-fixed"
     style="background-image: url({{ image }});">
     <div class="container relative max-w-5xl flex flex-col">
         <h1 class="font-bold md:text-5xl text-white order-2 md:mb-36">{{title}}</h1>
@@ -21,25 +22,8 @@ layout: default
 
 <div class="py-10 px-6">
     <div class="container max-w-4xl">
-        <!-- <header class="pb-10 mb-10 flex flex-col border-blue-highlight border-b-2">
-            <h1 class="font-bold text-5xl text-white order-2">{{title}}</h1>
-            {% if categories %}
-            <p class="text-gray tracking-widest uppercase mb-3 md:mb-6 order-1">
-                {{ categories }}
-            </p>
-            {% endif %}
-            <p class="text-gray order-3">
-                Date Posted: <time> {{ date | readableDate }}
-                    by
-                </time>
-            </p>
-        </header>
-        {% if image %}
-        <div class="md:flex-1">
-            <img class="md:object-cover md:h-full" src="{{ image }}" />
-        </div>
-        {% endif %} -->
         <article class="prose lg:prose-xl my-10 text-white">
-            {{ content | safe }}</article>
+            {{ content | safe }}
+        </article>
     </div>
 </div>

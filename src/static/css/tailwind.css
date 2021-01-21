@@ -111,6 +111,19 @@ a.text-accent:hover {
   height: 100%;
 }
 
+article.prose h1,
+article.prose h2,
+article.prose h3,
+article.prose h4,
+article.prose h5,
+article.prose h6 {
+  @apply text-white;
+}
+
+article.prose a {
+  @apply text-accent;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
