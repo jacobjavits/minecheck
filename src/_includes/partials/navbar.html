@@ -1,4 +1,4 @@
-<header class="fixed top-0 p-16 lg:px-0 w-full z-50">
+<header class="fixed top-0 p-6 xl:p-16 lg:px-0 w-full z-50 transition-all" :class="{ 'bg-blue xl:py-4': !scrollAtTop }" @scroll.window="scrollAtTop = (window.pageYOffset > 50) ? false : true">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap container mx-auto"
         x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
@@ -10,9 +10,9 @@
 
         <!--Toggle button (hidden on large screens)-->
         <button @click="isOpen = !isOpen" type="button"
-            class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500"
+            class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500 z-30"
             :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
-            <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <svg class="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                 <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd"
                     d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
                 <path x-show="!isOpen" fill-rule="evenodd"
@@ -21,17 +21,18 @@
         </button>
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center "
-            :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false"
-            x-show.transition="true">
+        <div class="w-full lg:w-auto lg:min-h-0 flex-grow lg:flex lg:items-center text-center fixed lg:relative z-10"
+            :class="{ 'min-h-screen flex items-center rounded-lg border-2 shadow-3xl top-0 bg-blue-dark': isOpen, 'hidden': !isOpen }"
+            @click.away="isOpen = false" x-show.transition="true">
 
             {% if navigation.items %}
 
-            <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
+            <ul class="p-10 lg:p-0 list-reset lg:flex justify-end flex-1 items-center">
                 {% for item in navigation.items %}
-                <li class="nav__item mr-3 last:mr-0">
+                <li class="nav__item mb-6 lg:mb-0 lg:mr-3 last:mr-0">
                     <a @click="isOpen = false"
-                        class="text-ml inline-block text-gray no-underline hover:text-white py-2 px-4 {{ item.class }}"
+                        class="text-ml inline-block text-gray no-underline hover:text-white py-2 px-4 text-3xl lg:text-base {{ item.class }}"
+                        :class="{ 'text-white': {{ path }} == {{ item.url }} }"
                         href="{{ item.url }}">{{ item.text }}</a>
                 </li>
                 {% endfor %}

@@ -12,22 +12,22 @@ path: storage
       <table class="text-white w-full">
         <thead>
           <tr>
-            <th class="w-1/4"></th>
-            <th class="border-r border-gray">
+            <th></th>
+            <th class="border-r border-gray w-1/4">
               <div class="bg-table-light p-4 block border-t border-l border-table-border rounded-tl-md">
                 <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Free</strong> <span
                     class="font-display">For individuals</span></p>
                 <p><a class="btn-faint" href="#">Get Started</a></p>
               </div>
             </th>
-            <th class="border-r border-gray">
+            <th class="border-r border-gray w-1/4">
               <div class="bg-table-light p-4 block border-t border-table-border">
                 <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Plus</strong> <span
                     class="font-display">For smaller teams</span></p>
                 <p><a class="btn-faint" href="#">Buy Now</a></p>
               </div>
             </th>
-            <th>
+            <th class="w-1/4">
               <div class="bg-table-light p-4 block border-t border-r border-table-border rounded-tr-md">
                 <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Enterprise</strong> <span
                     class="font-display">For larger
@@ -41,7 +41,8 @@ path: storage
         <tbody class="shadow-table">
           <tr class="text-center border-b border-gray">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border rounded-tl-md">Storage
+              <div class="bg-table-dark p-5 border-l border-t border-table-border rounded-tl-md flex items-center justify-between">Storage
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light p-5 border-r border-t border-gray font-display">2TB (2,000 GB)</td>
@@ -54,7 +55,8 @@ path: storage
           </tr>
           <tr class="text-center border-b border-gray">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border">Secure
+              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Secure
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
@@ -78,7 +80,8 @@ path: storage
           </tr>
           <tr class="text-center border-b border-gray">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border">Cheap
+              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Cheap
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
@@ -102,7 +105,8 @@ path: storage
           </tr>
           <tr class="text-center border-b border-gray">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border">All tools included
+              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">All tools included
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light p-5 text-center border-r border-t border-gray">
@@ -127,7 +131,8 @@ path: storage
           </tr>
           <tr class="text-center border-b border-gray">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border">Features to add
+              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Features to add
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light p-5 text-center border-r border-t border-gray">
@@ -152,7 +157,8 @@ path: storage
           </tr>
           <tr class="text-center">
             <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-b border-table-border rounded-bl-md">Lorem Ipsum
+              <div class="bg-table-dark p-5 border-l border-b border-table-border rounded-bl-md flex items-center justify-between">Lorem Ipsum 
+                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
             </td>
             <td class="bg-table-light text-center border-r border-gray">
@@ -186,9 +192,4 @@ path: storage
   </div>
 </section>
 
-<section class="bg-constellations bg-cover bg-center bg-no-repeat py-16 md:py-36 px-6">
-  <div class="container max-w-3xl">
-    <p class="text-white font-bold text-4xl mb-5 text-center leading-tight">Schedule a demo today!</p>
-    <p class="text-center"><a class="btn" href="#">Let's Mine</a></p>
-  </div>
-</section>
+{% include "partials/cta.html" %}
