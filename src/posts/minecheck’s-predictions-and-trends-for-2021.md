@@ -6,7 +6,7 @@ description: "If 2020 taught us one thing, it is that making predictions is a
   and expectations. "
 date: 2021-01-21T23:20:31.607Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 10
 image: /static/img/constellations-bg.jpg
 ---
