@@ -2,50 +2,114 @@
 layout: blog
 ---
 
-<section class="mt-15">
+<section class="mt-15 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10">
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-        {% if loop.first == true %}
-            <article class="my-8 sm:flex">
-            {% else %}
-                <article class="my-8">
+
+    {% if loop.first == true %}
+    <article class="mb-6 md:mb-0 md:col-span-full md:flex rounded-md overflow-hidden">
+        {% if post.data.image %}
+        <div class="md:flex-1">
+            <img class="md:object-cover md:h-full" src="{{ post.data.image }}" />
+        </div>
+        {% endif %}
+        <div
+            class="bg-table-light p-6 md:p-14 border-table-border border-l border-r border-b sm:border-t sm:border-r sm:border-b md:flex-1 md:flex md:flex-col">
+            <header class="flex flex-col-reverse">
+                <h2 class="font-bold text-lg sm:text-2xl mb-4 md:mb-6 leading-tight">
+                    <a class="text-white" href="{{ post.url | url }}">
+                        {% if post.data.title %}
+                        {{ post.data.title }}
+                        {% endif %}
+                    </a>
+                </h2>
+                {% if post.data.categories %}
+                <p class="text-gray tracking-widest uppercase mb-3 md:mb-6">
+                    {{ post.data.categories }}
+                </p>
                 {% endif %}
-
-                {% if post.data.image %}
-                    <div>
-                        <img src="{{ post.data.image }}"/>
-                    </div>
+            </header>
+            {% if post.data.description %}
+            <p class="font-display text-white text-opacity-90 text-sm sm:text-base mb-4 md:mb-6">
+                {{ post.data.description }}
+            </p>
+            {% endif %}
+            <p class="mb-4">
+                <a href="{{ post.url | url }}" class="text-accent sm:text-xl">
+                    Read more
+                </a>
+            </p>
+            <div class="text-xs sm:text-base font-display text-gray mb-0 md:mt-auto md:flex md:justify-between">
+                <p>
+                    Date Posted:
+                    <time>
+                        {{ post.date | readableDate }}
+                    </time>
+                </p>
+                {% if post.data.reading_time %}
+                <p>
+                    {{ post.data.reading_time }} min. read
+                </p>
                 {% endif %}
+            </div>
+        </div>
+    </article>
 
-                <div class="bg-table-light p-6">
-                    <h2 class="font-bold text-lg sm:text-3xl mb-4">
-                        <a class="text-white" href="{{ post.url | url }}">
-                            {% if post.data.title %}
-                                {{ post.data.title }}
-                            {% endif %}
-                        </a>
-                    </h2>
+    {% else %}
 
-                    {% if post.data.description %}
-                        <p class="font-display text-white text-sm sm:text-base mb-4">
-                            {{ post.data.description }}
-                        </p>
-                    {% endif %}
+    <article class="mb-6 md:mb-0 rounded-md overflow-hidden">
+        {% if post.data.image %}
+        <div>
+            <img class="md:object-cover md:h-full" src="{{ post.data.image }}" />
+        </div>
+        {% endif %}
 
-                    <p class="mb-4">
-                        <a href="{{ post.url | url }}" class="text-accent sm:text-lg">
-                            Read more
-                        </a>
-                    </p>
+        <div
+            class="bg-table-light h-full p-6 md:p-9 border-table-border border-l border-r border-b sm:border-t sm:border-r sm:border-l">
+            <header class="flex flex-col-reverse">
+                <h2 class="font-bold text-lg sm:text-2xl mb-4 md:mb-6 leading-tight">
+                    <a class="text-white" href="{{ post.url | url }}">
+                        {% if post.data.title %}
+                        {{ post.data.title }}
+                        {% endif %}
+                    </a>
+                </h2>
+                {% if post.data.categories %}
+                <p class="text-gray tracking-widest uppercase mb-3 md:mb-10">
+                    {{ post.data.categories }}
+                </p>
+                {% endif %}
+            </header>
 
-                    <p class="text-xs sm:text-base font-display text-gray mb-0">
-                        Date posted: <time>
-                            {{ post.date | readableDate }}
-                        </time>
-                    </p>
-                </div>
+            {% if post.data.description %}
+            <p class="font-display text-white text-opacity-90 text-sm sm:text-base mb-4 md:hidden">
+                {{ post.data.description }}
+            </p>
+            {% endif %}
 
-            </article>
-        {% endfor %}
-    </section>
+            <p class="mb-4">
+                <a href="{{ post.url | url }}" class="text-accent sm:text-lg">
+                    Read more
+                </a>
+            </p>
+
+            <div class="text-xs sm:text-base font-display text-gray mb-0 md:mt-auto md:flex md:justify-between">
+                <p>
+                    Date Posted:
+                    <time>
+                        {{ post.date | readableDate }}
+                    </time>
+                </p>
+                {% if post.data.reading_time %}
+                <p>
+                    {{ post.data.reading_time }} min. read
+                </p>
+                {% endif %}
+            </div>
+        </div>
+
+    </article>
+    {% endif %}
+    {% endfor %}
+</section>

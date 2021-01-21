@@ -18,6 +18,7 @@ module.exports = {
     },
     colors: {
       blue: {
+        highlight: "#043D75",
         light: "#082443",
         DEFAULT: "#08203C",
         dark: "#0f172a",
@@ -54,7 +55,7 @@ module.exports = {
         map: "url('/static/img/map-bg.jpg')",
         pickaxe: "url('/static/img/pick-axe.jpg')",
         constellations: "url('/static/img/constellations-bg.jpg')",
-        servers: "url('/static/img/server-bg.jpg')"
+        servers: "url('/static/img/server-bg.jpg')",
       }),
       fontSize: {
         callout: "1.375rem",
@@ -64,9 +65,14 @@ module.exports = {
         50: "1 0 50%",
       },
       boxShadow: {
-        table: '0px 12px 36px rgba(0, 0, 0, 0.14)'
-      }
+        table: "0px 12px 36px rgba(0, 0, 0, 0.14)",
+      },
     },
+  },
+  variants: {
+    extend: {
+      margin: ['last'],
+    }
   },
   plugins: [require("@tailwindcss/typography")],
 };

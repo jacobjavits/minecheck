@@ -71,6 +71,10 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+a.text-accent:hover {
+  @apply text-white;
+}
+
 .btn {
   @apply bg-accent rounded px-16 py-4 uppercase inline-block font-bold;
 }
@@ -93,6 +97,18 @@ h3 {
 
 .btn-faint:hover {
   @apply bg-opacity-100 text-white;
+}
+
+/** Blogs */
+.blog-header::before {
+  @apply bg-blue-light bg-opacity-90;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Syntax Highlighting*/

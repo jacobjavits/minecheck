@@ -1,5 +1,5 @@
-<header class="fixed top-0 w-full">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto"
+<header class="fixed top-0 p-16 lg:px-0 w-full z-50">
+    <nav class="flex items-center justify-center lg:justify-between flex-wrap container mx-auto"
         x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
@@ -29,7 +29,7 @@
 
             <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
                 {% for item in navigation.items %}
-                <li class="nav__item mr-3">
+                <li class="nav__item mr-3 last:mr-0">
                     <a @click="isOpen = false"
                         class="text-ml inline-block text-gray no-underline hover:text-white py-2 px-4 {{ item.class }}"
                         href="{{ item.url }}">{{ item.text }}</a>
