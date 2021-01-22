@@ -56,10 +56,16 @@ module.exports = {
         pickaxe: "url('/static/img/pick-axe.jpg')",
         constellations: "url('/static/img/constellations-bg.jpg')",
         servers: "url('/static/img/server-bg.jpg')",
+        logo_outline: "url('/static/img/minecheck-outline-faded.svg')",
       }),
+      backgroundSize: {
+        '30%': '30%',
+      },
+      backgroundPosition: {
+        'overlap-right': 'right -12% center'
+      },
       fontSize: {
         callout: "1.375rem",
-        "2xl": "1.625rem",
       },
       flex: {
         50: "1 0 50%",

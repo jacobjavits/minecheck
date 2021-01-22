@@ -99,6 +99,20 @@ a.text-accent:hover {
   @apply bg-opacity-100 text-white;
 }
 
+.hero-gradient {
+  background: linear-gradient(
+      295.79deg,
+      rgba(5, 39, 90, 0.4) 29.11%,
+      rgba(11, 41, 79, 0) 52.47%
+    ),
+    linear-gradient(
+      135.32deg,
+      rgba(50, 91, 253, 0.2) 0%,
+      rgba(8, 32, 60, 0) 75.14%
+    ),
+    #101729;
+}
+
 /** Blogs */
 .blog-header::before {
   @apply bg-blue-light bg-opacity-90;
