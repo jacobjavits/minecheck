@@ -1,4 +1,4 @@
-<header class="fixed top-0 p-6 xl:p-16 lg:px-0 w-full z-50 transition-all" :class="{ 'bg-blue xl:py-4': !scrollAtTop }" @scroll.window="scrollAtTop = (window.pageYOffset > 50) ? false : true">
+<header class="fixed top-0 p-6 xl:p-16 lg:px-0 w-full z-50 transition-all" :class="{ 'bg-blue py-2 xl:py-4': !scrollAtTop }" @scroll.window="scrollAtTop = (window.pageYOffset > 50) ? false : true">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap container mx-auto"
         x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->

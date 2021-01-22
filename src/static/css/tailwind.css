@@ -124,6 +124,18 @@ article.prose a {
   @apply text-accent;
 }
 
+/** Storage Table */
+@media (max-width: 767px) {
+  .storage-table-column::before {
+    @apply font-sans rounded bg-white bg-opacity-20 border border-accent;
+    content: attr(data-plan);
+    margin-right: auto;
+    padding: 6px;
+    flex: 1 1;
+    max-width: 33%;
+  }
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],

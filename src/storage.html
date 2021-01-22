@@ -9,185 +9,171 @@ path: storage
     <h1 class="text-center text-white font-bold text-4xl mb-12">Choose the right MineCheck Plan for you</h1>
 
     <div class="overflow-auto  md:overflow-visible whitespace-pre">
-      <table class="text-white w-full">
-        <thead>
-          <tr>
-            <th></th>
-            <th class="border-r border-gray w-1/4">
-              <div class="bg-table-light p-4 block border-t border-l border-table-border rounded-tl-md">
-                <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Free</strong> <span
-                    class="font-display">For individuals</span></p>
+      <div class="md:table text-white w-full">
+        <div class="md:table-row-group">
+          <div class="flex flex-col md:table-row mb-4 md:mb-0">
+            <div class="md:table-cell"></div>
+            <div class="md:table-cell md:border-r border-gray md:w-1/4 text-center">
+              <div
+                class="flex items-center justify-between md:block bg-table-light p-4 border-t border-l border-r md:border-r-0 border-table-border rounded-tl-md rounded-tr-md md:rounded-tr-none">
+                <p class="text-gray font-normal md:mb-3 text-left md:text-center">
+                  <strong class="text-white block text-lg">Free</strong><span class="font-display">For
+                    individuals</span>
+                </p>
                 <p><a class="btn-faint" href="#">Get Started</a></p>
               </div>
-            </th>
-            <th class="border-r border-gray w-1/4">
-              <div class="bg-table-light p-4 block border-t border-table-border">
-                <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Plus</strong> <span
-                    class="font-display">For smaller teams</span></p>
+            </div>
+            <div class="md:table-cell md:border-r border-gray md:w-1/4 text-center">
+              <div
+                class="flex items-center justify-between md:block bg-table-light p-4 border-t border-l border-r md:border-l-0 md:border-r-0 border-table-border">
+                <p class="text-gray font-normal md:mb-3 text-left md:text-center">
+                  <strong class="text-white block text-lg">Plus</strong><span class="font-display">For smaller
+                    teams</span>
+                </p>
                 <p><a class="btn-faint" href="#">Buy Now</a></p>
               </div>
-            </th>
-            <th class="w-1/4">
-              <div class="bg-table-light p-4 block border-t border-r border-table-border rounded-tr-md">
-                <p class="text-gray font-normal mb-3"><strong class="text-white block text-lg">Enterprise</strong> <span
-                    class="font-display">For larger
+            </div>
+            <div class="md:table-cell md:w-1/4 text-center">
+              <div
+                class="flex items-center justify-between md:block bg-table-light p-4 border-t border-r border-l border-b md:border-l-0 md:border-b-0 border-table-border rounded-bl-md md:rounded-bl-none rounded-br-md md:rounded-br-none md:rounded-tr-md">
+                <p class="text-gray font-normal md:mb-3 text-left md:text-center">
+                  <strong class="text-white block text-lg">Enterprise</strong><span class="font-display">For larger
                     teams</span>
                 </p>
                 <p><a class="btn-faint" href="#">Contact Us</a></p>
               </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody class="shadow-table">
-          <tr class="text-center border-b border-gray">
-            <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-t border-table-border rounded-tl-md flex items-center justify-between">Storage
+            </div>
+          </div>
+        </div>
+        <div class="md:table-row-group shadow-table">
+          <div class="md:table-row text-center border-b border-gray">
+            <div class="md:table-cell text-left text-lg left-0">
+              <div
+                class="bg-table-dark p-5 border-l border-t border-table-border rounded-tl-md flex items-center justify-between">
+                Storage
                 <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
-            </td>
-            <td class="bg-table-light p-5 border-r border-t border-gray font-display">2TB (2,000 GB)</td>
-            <td class="bg-table-light p-5 border-r border-t border-gray font-display">5TB (5,000 GB)</td>
-            <td class="bg-table-light border-t border-gray font-display">
-              <div class="p-5 border-r border-table-border">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 md:border-r border-t border-gray font-display"
+              data-plan="Free">2TB (2,000 GB)</div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 md:border-r border-t border-gray font-display"
+              data-plan="Plus">5TB (5,000 GB)</div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 md:p-0 border-t border-gray font-display"
+              data-plan="Enterprise">
+              <div class="p-0 md:p-5 border-r border-table-border">
                 As much space as needed
               </div>
-            </td>
-          </tr>
-          <tr class="text-center border-b border-gray">
-            <td class="text-left text-lg sticky left-0">
+            </div>
+          </div>
+          <div class="md:table-row text-center border-b border-gray">
+            <div class="md:table-cell text-left text-lg left-0 border-t border-gray">
               <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Secure
                 <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light text-center border-t border-gray">
-              <div class="p-5 border-r border-table-border">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Free">
+              <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Plus">
+              <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-t border-gray p-5 md:p-0"
+              data-plan="Enterprise">
+              <div class="md:p-5 border-r border-table-border">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-          </tr>
-          <tr class="text-center border-b border-gray">
-            <td class="text-left text-lg sticky left-0">
+            </div>
+          </div>
+          <div class="md:table-row text-center border-b border-gray">
+            <div class="md:table-cell text-left text-lg left-0 border-t border-gray">
               <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Cheap
                 <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light text-center border-t border-gray">
-              <div class="p-5 border-r border-table-border">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Free">
+              <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Plus">
+              <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-t border-gray p-5 md:p-0"
+              data-plan="Enterprise">
+              <div class="md:p-5 border-r border-table-border">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-          </tr>
-          <tr class="text-center border-b border-gray">
-            <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">All tools included
+            </div>
+          </div>
+          <div class="md:table-row text-center border-b border-gray">
+            <div class="md:table-cell text-left text-lg left-0 border-t border-gray">
+              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">All tools
+                included
                 <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray">
-              <svg class="inline-block" width="13" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M12.335 3.414A2 2 0 009.505.586L6.648 3.444 3.79.586A2 2 0 10.962 3.414L3.82 6.272.586 9.506a2 2 0 002.828 2.829L6.648 9.1l3.234 3.233a2 2 0 002.828-2.828L9.476 6.272l2.858-2.858z"
-                  fill="#959DAE" /></svg>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light text-center border-t border-gray">
-              <div class="p-5 border-r border-table-border">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Free">
+              <img class="inline-block" width="13" src="/static/img/icon-x-gray.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light p-5 text-center border-r border-t border-gray"
+              data-plan="Plus">
+              <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-t border-gray p-5 md:p-0"
+              data-plan="Enterprise">
+              <div class="md:p-5 border-r border-table-border">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-          </tr>
-          <tr class="text-center border-b border-gray">
-            <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-table-border flex items-center justify-between">Features to add
+            </div>
+          </div>
+          <div class="md:table-row text-center border-b border-table-border">
+            <div class="md:table-cell text-left text-lg left-0 border-t border-gray">
+              <div
+                class="bg-table-dark p-5 border-l border-b border-table-border rounded-bl-md flex items-center justify-between">
+                Features to
+                add
                 <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
               </div>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray">
-              <svg class="inline-block" width="13" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M12.335 3.414A2 2 0 009.505.586L6.648 3.444 3.79.586A2 2 0 10.962 3.414L3.82 6.272.586 9.506a2 2 0 002.828 2.829L6.648 9.1l3.234 3.233a2 2 0 002.828-2.828L9.476 6.272l2.858-2.858z"
-                  fill="#959DAE" /></svg>
-            </td>
-            <td class="bg-table-light p-5 text-center border-r border-t border-gray"><svg class="inline-block"
-                width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                <path
-                  d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                  fill="#13DA5A" /></svg></td>
-            <td class="bg-table-light text-center border-t border-gray">
-              <div class="p-5 border-r border-table-border">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-r border-t border-gray"
+              data-plan="Free">
+              <div class="p-5 border-b border-table-border h-full">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-          </tr>
-          <tr class="text-center">
-            <td class="text-left text-lg sticky left-0">
-              <div class="bg-table-dark p-5 border-l border-b border-table-border rounded-bl-md flex items-center justify-between">Lorem Ipsum 
-                <button><img src="/static/img/icon-info.svg" alt="More Storage Info"></button>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-r border-t border-gray"
+              data-plan="Plus">
+              <div class="p-5 border-b border-table-border">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-            <td class="bg-table-light text-center border-r border-gray">
-              <div class="block p-5 border-b border-table-border">
-                <svg class="inline-block" width="13" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M12.335 3.414A2 2 0 009.505.586L6.648 3.444 3.79.586A2 2 0 10.962 3.414L3.82 6.272.586 9.506a2 2 0 002.828 2.829L6.648 9.1l3.234 3.233a2 2 0 002.828-2.828L9.476 6.272l2.858-2.858z"
-                    fill="#959DAE" /></svg>
+            </div>
+            <div
+              class="storage-table-column flex items-center md:table-cell bg-table-light text-center border-t border-gray"
+              data-plan="Enterprise">
+              <div class="md:p-5 border-r border-b border-table-border rounded-br-md">
+                <img class="inline-block" width="17" src="/static/img/icon-check-green.svg" alt="">
               </div>
-            </td>
-            <td class="bg-table-light text-center border-r border-gray">
-              <div class="block p-5 border-b border-table-border">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
-              </div>
-            </td>
-            <td class="bg-table-light text-center border-gray">
-              <div class="block p-5 border-b border-r border-table-border rounded-br-md">
-                <svg class="inline-block" width="17" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13">
-                  <path
-                    d="M16.555 3.117l-9.008 9.417a1.475 1.475 0 01-2.152 0L.445 7.36a1.642 1.642 0 010-2.25L.83 4.71a1.475 1.475 0 012.152 0l3.49 3.647 7.546-7.89a1.475 1.475 0 012.153 0l.384.402a1.643 1.643 0 010 2.25z"
-                    fill="#13DA5A" /></svg>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
