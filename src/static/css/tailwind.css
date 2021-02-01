@@ -135,7 +135,35 @@ article.prose h6 {
 }
 
 article.prose a {
-  @apply text-accent;
+  @apply text-white;
+  position: relative;
+  text-decoration: none;
+}
+
+article.prose a::before,
+article.prose a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+article.prose a::after {
+  @apply bg-white;
+  width: 0;
+}
+
+article.prose a::before {
+  @apply bg-accent;
+  width: 100%;
+}
+
+article.prose a:hover::after {
+  @apply transition-all;
+  transition: 0.3s ease;
+  width: 100%;
 }
 
 /** Storage Table */

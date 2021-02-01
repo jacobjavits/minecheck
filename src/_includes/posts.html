@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header
+<div
     class="blog-header relative pt-36 md:pt-72 px-6 flex flex-col border-blue-highlight border-b-2 bg-top bg-cover md:bg-fixed"
     style="background-image: url({{ image }});">
     <div class="container relative max-w-5xl flex flex-col">
@@ -18,11 +18,11 @@ layout: default
             </time>
         </p>
     </div>
-</header>
+</div>
 
 <div class="py-10 px-6">
-    <div class="container max-w-4xl">
-        <article class="prose lg:prose-xl my-10 text-white">
+    <div class="container max-w-5xl">
+        <article class="prose lg:prose-lg my-10">
             {{ content | safe }}
         </article>
     </div>

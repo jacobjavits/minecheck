@@ -1,0 +1,90 @@
+---
+layout: default
+title: Filecoin
+path: filecoin
+---
+
+<section class="bg-filecoin bg-right-bottom bg-cover bg-no-repeat px-6 md:h-auto pt-36 pb-12 md:pt-64 md:pb-40">
+  <div class="container mx-auto flex flex-col justify-center items-start">
+    <div class="max-w-xl">
+      <h1 class="text-gray font-display uppercase text-base tracking-widest mb-5">
+        Filecoin
+      </h1>
+      <p class="text-white text-4xl font-bold mb-10 leading-10">Designed to store humanity’s most important
+        information.
+      </p>
+      <p class="text-gray mb-12">The Filecoin network achieves staggering economies of scale by allowing anyone to
+        participate as a storage provider and monetize their open hard drive space.</p>
+      <p>
+        <a class="btn mb-16" href="/contact">Let's Mine</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue-light py-20 md:pb-28 px-6" x-data="{ feature: 1, screenWidth: window.screen.width }"
+  @resize.window="screenWidth = window.screen.width">
+  <div class="container">
+    <div class="max-w-6xl">
+      <h2 class="text-white text-2xl md:text-4xl mb-10 font-bold">Filecoin Rewards</h2>
+      <p class="max-w-3xl text-gray mb-16 font-display">No useless proof-of-work here. Storing more files is directly
+        related to
+        winning more block rewards. The more storage you add, the more filecoin you’ll earn.
+      </p>
+      <div class="md:flex md:gap-12">
+        <div class="flex-1 mb-8 md:mb-0">
+          <h3 class="text-lg md:text-2xl text-white mb-6">Earning Filecoin</h3>
+          <p class="text-gray font-display leading-relaxed">Storage miners earn filecoin by storing data for clients,
+            and computing
+            cryptographic proofs to verify storage across time.</p>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-lg md:text-2xl text-white mb-6">Block rewards</h3>
+          <p class="text-gray font-display leading-relaxed">The probability of earning the block reward and transaction
+            fees is
+            proportional to the amount of storage the miner contributes to the Filecoin network, and not hashing power.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue md:bg-network md:bg-contain md:bg-right md:bg-no-repeat py-10 md:py-44 px-6">
+  <div class="container">
+    <div class="max-w-lg">
+      <h2 class="text-white text-2xl md:text-4xl mb-10 font-bold">Filecoin Network</h2>
+      <p class="max-w-3xl text-gray mb-12 font-display">The Filecoin network is designed to reward participants at
+        multiple levels —
+        from large scale data centers to local entrepreneurs with mining rigs that cover the last mile.
+      </p>
+      <p>
+        <p><a class="text-accent text-xl" href="#">Learn more</a></p>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue-light py-10 lg:py-32 px-6 md:pl-0">
+  <div class="container">
+    <div class="md:flex md:items-center">
+      <div class="flex-1 max-w-lg md:pr-6">
+        <h2 class="text-gray font-display uppercase text-base tracking-widest mb-5">SIMPLE efficiency</h2>
+        <p class="text-white text-4xl font-bold leading-tight mb-5">More rewards for more storage
+        </p>
+        <p class="text-gray font-display mb-12">No useless proof-of-work here. Storing more files is directly related to winning more
+          block rewards. The more storage you add, the more filecoin you’ll earn.
+        </p>
+        <p>
+          <p><a class="text-accent text-xl" href="#">Read the docs</a></p>
+        </p>
+      </div>
+      <div class="flex-1">
+        <img class="md:ml-auto" width="598" src="/static/img/storage-chart.png"
+          alt="Graph showing Minecheck abstraction: Filecoin Earnings vs. Storage over time">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/cta.html" %}

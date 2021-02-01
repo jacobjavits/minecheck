@@ -3,7 +3,7 @@ items:
   - text: Home
     url: "/"
   - text: Filecoin
-    url: "#"
+    url: "/filecoin"
   - text: Software
     url: "/software"
   - text: Storage

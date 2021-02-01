@@ -52,6 +52,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         hero: "url('/static/img/hero-bg.png')",
         devices: "url('/static/img/devices-screenshots.png')",
+        filecoin: "url('/static/img/filecoin-bg.jpg')",
+        network: "url('/static/img/network-bg.jpg')",
         map: "url('/static/img/map-bg.jpg')",
         pickaxe: "url('/static/img/pick-axe.jpg')",
         constellations: "url('/static/img/constellations-bg.jpg')",
@@ -73,6 +75,14 @@ module.exports = {
       boxShadow: {
         table: "0px 12px 36px rgba(0, 0, 0, 0.14)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#fff',
+            maxWidth: '80ch'
+          },
+        },
+      }
     },
   },
   variants: {
