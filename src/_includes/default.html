@@ -12,9 +12,7 @@
     {% endif %}
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
-    {% endif %}
+    <!-- <link rel="stylesheet" type="text/css" href="/static/css/background-images.css"/> -->
   </head>
   <body class="bg-gradient-to-br from-blue-light to-blue-dark" x-data="{ scrollAtTop: true }">
     {% include "./partials/navbar.html" %}
@@ -24,12 +22,6 @@
     {% include "./partials/footer.html" %}
 
     <script src="/static/js/alpine.js"></script>
-
-    {% if path == "home" %}
-      <!-- Netlify Identity Widget -->
-      <!-- Needed only if you are using Netlify Identity feature -->
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
 
   </body>
 </html>
