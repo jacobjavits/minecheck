@@ -33,6 +33,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  
+  eleventyConfig.addShortcode("currentYear", function() {
+    console.log(new Date().getFullYear())
+    return new Date().getFullYear().toString()
+  });
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
