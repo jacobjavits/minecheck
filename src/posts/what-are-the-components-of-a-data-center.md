@@ -7,7 +7,7 @@ description: "Data centers are centralized locations where computing equipment
   components of a data center: "
 date: 2021-02-18T01:16:49.186Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 5
 image: /static/img/blog-banner_what-are-the-components-of-a-data-center_.jpg
 ---
