@@ -8,7 +8,7 @@ description: "As technologies such as the Internet of Things (IoT), artificial
   computing (HPC) is important.  "
 date: 2021-02-18T01:09:36.628Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 5
 image: /static/img/blog-banner_why-is-hpc-important_.jpg
 ---
