@@ -6,7 +6,7 @@ description: Before understanding Cryptocurrency, you first need to understand
   has been carried out in a cryptocurrency.
 date: 2021-02-18T01:19:28.210Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 5
 image: /static/img/blog-banner_what-is-cryptocurrency_.jpg
 ---
