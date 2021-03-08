@@ -35,7 +35,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   
   eleventyConfig.addShortcode("currentYear", function() {
-    console.log(new Date().getFullYear())
     return new Date().getFullYear().toString()
   });
 
