@@ -99,6 +99,10 @@ a.text-accent:hover {
   @apply bg-opacity-100 text-white;
 }
 
+.nav-active {
+  color: #fff !important;
+}
+
 .hero-gradient {
   background: linear-gradient(
       295.79deg,
@@ -142,7 +146,7 @@ article.prose a {
 
 article.prose a::before,
 article.prose a::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   height: 2px;

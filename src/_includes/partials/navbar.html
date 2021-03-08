@@ -1,10 +1,12 @@
-<header class="fixed top-0 p-6 xl:p-16 lg:px-0 w-full z-50 transition-all" :class="{ 'bg-blue py-2 xl:py-4': !scrollAtTop }" @scroll.window="scrollAtTop = (window.pageYOffset > 50) ? false : true">
+<header class="fixed top-0 p-6 xl:p-16 lg:px-0 w-full z-50 transition-all"
+    :class="{ 'bg-blue py-2 xl:py-4': !scrollAtTop }"
+    @scroll.window="scrollAtTop = (window.pageYOffset > 50) ? false : true">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap container mx-auto"
         x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
             <a href="/">
-                <img src="/static/img/logo.svg" alt="">
+                <img src="/static/img/logo.svg" alt="Home Page">
             </a>
         </div>
 
@@ -29,10 +31,10 @@
 
             <ul class="p-10 lg:p-0 list-reset lg:flex justify-end flex-1 items-center">
                 {% for item in navigation.items %}
+                {% set navSlug = item.url | replace('/', '') %}
                 <li class="nav__item mb-6 lg:mb-0 lg:mr-3 last:mr-0">
-                    <a @click="isOpen = false"
-                        class="text-ml inline-block text-gray no-underline hover:text-white py-2 px-4 text-3xl lg:text-base {{ item.class }}"
-                        :class="{ 'text-white': {{ path }} == {{ item.url }} }"
+                    <a @click="isOpen = false" x-data="navSlug"
+                        class="text-ml inline-block text-gray no-underline hover:text-white py-2 px-4 text-3xl lg:text-base {{ item.class }} {{ 'nav-active' if navSlug == path }}"
                         href="{{ item.url }}">{{ item.text }}</a>
                 </li>
                 {% endfor %}

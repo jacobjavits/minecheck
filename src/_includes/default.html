@@ -19,6 +19,7 @@
 
       gtag('config', 'UA-179640747-1');
     </script>
+    <script src="/static/js/alpine.js"></script>
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="/static/css/background-images.css"/>
@@ -29,8 +30,6 @@
     {{ content | safe }}
 
     {% include "./partials/footer.njk" %}
-
-    <script src="/static/js/alpine.js"></script>
 
   </body>
 </html>
