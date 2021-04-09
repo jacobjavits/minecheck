@@ -186,6 +186,19 @@ article.prose strong {
   }
 }
 
+/** Software */
+.feature:hover h3 span,
+.feature--active h3 span {
+  color: #fff;
+}
+
+.feature:hover svg,
+.feature:hover svg path,
+.feature--active svg,
+.feature--active svg path {
+  fill: #fff;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
