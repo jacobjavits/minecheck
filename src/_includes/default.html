@@ -15,6 +15,13 @@
     {% if image %}
     <meta property="og:image" content="{{ settings.url }}/{{image}}" />
     {% endif %}
+    {% set pageSlug = page.url | replace("/", "") %}
+    {% set pageType = pageSlug | truncate(5) %}
+    {% if pageType == "posts..." %}
+    <meta property="og:type" content="article" />
+    {% else %}
+    <meta property="og:type" content="website" />
+    {% endif %}
     {% if description %}
     <meta property="og:description" content="{{description}}" />
     {% endif %}
