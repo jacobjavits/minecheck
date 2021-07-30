@@ -10,6 +10,14 @@
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:url" content="{{settings.url}}{{page.url}}" />
+    {% if image %}
+    <meta property="og:image" content="{{ settings.url }}/{{image}}" />
+    {% endif %}
+    {% if description %}
+    <meta property="og:description" content="{{description}}" />
+    {% endif %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179640747-1"></script>
     <script>
