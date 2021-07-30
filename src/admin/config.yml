@@ -21,14 +21,18 @@ collections:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Description", name: "description", widget: "text" , reqruired: false}
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "select", options: ["default"] }
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "string", default: "page" }
       - label: "Featured Image"
         name: "image"
         widget: image
         media_library:
           config:
             multiple: false
+        required: false
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
@@ -72,18 +76,6 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
