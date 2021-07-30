@@ -1,0 +1,6 @@
+Sitemap: https://minecheck/sitemap.xml
+
+User-agent: *
+Disallow:/admin/
+Disallow:/static/
+Disallow:/img/
