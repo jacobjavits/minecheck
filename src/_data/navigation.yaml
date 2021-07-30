@@ -9,6 +9,6 @@ items:
     url: /blog
   - text: About
     url: /about
-  - text: Contact Us!
+  - text: Contact Us
     url: /contact
     class: btn-outline
