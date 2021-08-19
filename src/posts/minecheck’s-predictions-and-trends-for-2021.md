@@ -4,7 +4,7 @@ description: "If 2020 taught us one thing, it is that making predictions is a
   tricky business. The COVID-19 pandemic ushered in a profound shift in how
   businesses operate, testing their ability to adapt to new technologies, trends
   and expectations. "
-date: 2021-01-21T23:20:31.607Z
+date: 2021-02-15T23:20:31.607Z
 categories:
   - Crypto
 reading_time: 10
