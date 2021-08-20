@@ -5,7 +5,7 @@ description: "Data centers are centralized locations where computing equipment
   distributing and accessing large amounts of data.  In order to help better
   understand how data centers work, we’ve put together a list of five core
   components of a data center: "
-date: 2021-05-18T00:16:49.186Z
+date: 2021-06-16T00:16:49.186Z
 categories:
   - Crypto
 reading_time: 5
