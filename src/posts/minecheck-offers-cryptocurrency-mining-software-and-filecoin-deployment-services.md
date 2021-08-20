@@ -7,7 +7,7 @@ date: 2021-05-17T20:24:57.392Z
 categories:
   - PR
 reading_time: 2
-image: /static/img/blog-banner_minecheck-predictions_.jpg
+image: /static/img/shutterstock_1100777855-copy.jpg
 ---
 **Concord, NH, March 23, 2021 —** Minecheck, a company offering proprietary software for the cryptocurrency mining industry, as well as Fielcoin deployment services, celebrates its launch today.
 
