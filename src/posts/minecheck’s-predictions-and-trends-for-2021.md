@@ -4,11 +4,11 @@ description: "If 2020 taught us one thing, it is that making predictions is a
   tricky business. The COVID-19 pandemic ushered in a profound shift in how
   businesses operate, testing their ability to adapt to new technologies, trends
   and expectations. "
-date: 2021-01-21T23:20:31.607Z
+date: 2021-02-15T23:20:31.607Z
 categories:
   - Crypto
 reading_time: 10
-image: /static/img/blog-banner_minecheck-predictions_.jpg
+image: /static/img/screen-shot-2021-08-05-at-5.25.36-am.png
 ---
 If 2020 taught us one thing, it is that making predictions is a tricky business. The COVID-19 pandemic ushered in a profound shift in how businesses operate, testing their ability to adapt to new technologies, trends and expectations.  
 

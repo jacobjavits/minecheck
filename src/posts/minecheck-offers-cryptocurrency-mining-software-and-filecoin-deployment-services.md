@@ -3,11 +3,11 @@ title: Minecheck Offers Cryptocurrency Mining Software and Filecoin Deployment
   Services
 description: Software reduces personnel and operating expense of mining facility
   by almost 68 percent
-date: 2021-03-24T20:24:57.392Z
+date: 2021-05-17T20:24:57.392Z
 categories:
   - PR
 reading_time: 2
-image: /static/img/blog-banner_minecheck-predictions_.jpg
+image: /static/img/shutterstock_1100777855-copy.jpg
 ---
 **Concord, NH, March 23, 2021 —** Minecheck, a company offering proprietary software for the cryptocurrency mining industry, as well as Fielcoin deployment services, celebrates its launch today.
 
