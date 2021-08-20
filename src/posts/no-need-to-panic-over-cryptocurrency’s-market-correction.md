@@ -4,7 +4,7 @@ description: While market plunges are always unsettling, we know that markets
   never follow a straight trajectory and require corrections from time to time.
   There’s reason to remain optimistic about the price of Bitcoin and the
   cryptocurrency market in general.
-date: 2021-06-15T23:34:52.339Z
+date: 2021-04-15T23:34:52.339Z
 categories:
   - Crypto
 reading_time: 5
