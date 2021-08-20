@@ -60,6 +60,7 @@ module.exports = function (eleventyConfig) {
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
     "./_tmp/static/css/style.css": "./static/css/style.css",
+    "./src/static/js/alpine.js": "./static/js/alpine.js",
     "./src/admin/config.yml": "./admin/config.yml",
     "./src/admin/config.yml": "./admin/config.yml",
     "./src/robots.txt": "./robots.txt"
