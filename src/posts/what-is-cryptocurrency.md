@@ -4,7 +4,7 @@ description: Before understanding Cryptocurrency, you first need to understand
   what blockchain is and how it works. Blockchain is a technology that supports
   almost all cryptocurrencies. It is a public ledger of every transaction that
   has been carried out in a cryptocurrency.
-date: 2021-02-18T01:19:28.210Z
+date: 2021-05-18T00:19:28.210Z
 categories:
   - Crypto
 reading_time: 5
