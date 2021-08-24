@@ -1,9 +1,9 @@
 ---
 title: "Capturing Data to Manage Your Cryptocurrency Mining Environment "
-description: "Capturing Data to Manage Your Cryptocurrency Mining Environment "
+description: Command. Control. Capture.
 date: 2021-08-24T14:06:49.781Z
 categories:
-  - uncategorized
+  - PR
 reading_time: 5
 image: /static/img/shutterstock_1886586961.jpg
 ---
