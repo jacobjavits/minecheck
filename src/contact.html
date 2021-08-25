@@ -9,7 +9,7 @@ tags: page
 <section class="bg-constellations bg-cover bg-center bg-fixed bg-no-repeat py-32 md:py-72 px-6 flex items-center">
   <div class="container max-w-2xl">
     <p class="text-white font-bold text-4xl mb-5 text-center leading-tight">Contact Us</p>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
       <p class="mb-6">
         <label class="text-white">Name: <input type="text" name="name" class="block rounded-lg border-2 border-table-border shadow-lg text-blue p-2 mt-3 text-lg w-full" /></label>   
       </p>
@@ -19,6 +19,7 @@ tags: page
       <p class="mb-6">
         <label class="text-white">Message: <textarea name="message" rows="10" class="block rounded-lg border-2 border-table-border shadow-lg text-blue p-2 mt-3 text-lg w-full"></textarea></label>
       </p>
+      <div data-netlify-recaptcha="true"></div>
       <p>
         <button type="submit" class="btn">Send</button>
       </p>
