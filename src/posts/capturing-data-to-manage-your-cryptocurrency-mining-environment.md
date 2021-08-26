@@ -5,7 +5,7 @@ date: 2021-08-24T14:06:49.781Z
 categories:
   - PR
 reading_time: 5
-image: /static/img/shutterstock_1886586961.jpg
+image: /static/img/shutterstock_1886586961-1-1-.jpg
 ---
 Consider this: as of March 2021, the total global market capitalization of all cryptocurrencies [totaled $1.77 trillion](https://youngandtheinvested.com/cryptocurrency-statistics/), making it the 8th largest economy globally. Furthermore, the global income generated through cryptocurrency mining is estimated at over $20 billion per year. In fact, cryptocurrency mining produced [63 million U.S. dollars during a single day](https://www.statista.com/statistics/731383/bitcoin-mining-revenue/) in January 2021.
 
