@@ -1,8 +1,7 @@
 ---
 title: Minecheck Offers Cryptocurrency Mining Software and Filecoin Deployment
   Services
-description: Software reduces personnel and operating expense of mining facility
-  by almost 68 percent
+description: Software reduces operating expense of mining facility by almost 68 percent
 date: 2021-05-17T20:24:57.392Z
 categories:
   - PR
