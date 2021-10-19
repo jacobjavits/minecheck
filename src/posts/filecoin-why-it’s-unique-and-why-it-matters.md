@@ -3,7 +3,7 @@ title: "Filecoin: Why It’s Unique and Why it Matters"
 description: "Filecoin: Why It’s Unique and Why it Matters"
 date: 2021-09-23T16:32:37.297Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 5
 image: /static/img/filecoinblog.jpg
 ---
