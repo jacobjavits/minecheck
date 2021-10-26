@@ -1,5 +1,5 @@
 ---
-title: Investing in Cryptocurrency Part 1
+title: Investing in Cryptocurrency Part 1 - How to Get Involved in Cryptocurrency
 description: How to Get Involved in Cryptocurrency
 date: 2021-10-26T16:57:21.676Z
 categories:
