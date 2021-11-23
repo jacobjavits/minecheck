@@ -6,7 +6,7 @@ date: 2021-11-23T14:40:31.579Z
 categories:
   - crypto
 reading_time: 5
-image: /static/img/screen-shot-2021-11-23-at-9.38.20-am.jpg
+image: /static/img/screen-shot-2021-11-23-at-9.48.17-am.jpg
 ---
 **\*Note: this is part two in our series, “Investing in Cryptocurrency.” Our first post explored [different ways to get involved in cryptocurrency](https://www.minecheck.com/posts/investing-in-cryptocurrency-part-1/).**
 
