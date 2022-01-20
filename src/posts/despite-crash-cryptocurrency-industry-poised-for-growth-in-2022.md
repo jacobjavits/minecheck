@@ -3,7 +3,7 @@ title: Despite Crash, Cryptocurrency Industry Poised for Growth in 2022
 description: "2022 Cryptocurrency Industry "
 date: 2022-01-20T16:05:07.174Z
 categories:
-  - uncategorized
+  - Crypto
 reading_time: 5
 image: /static/img/shutterstock_1216432066-1-.jpg
 ---
