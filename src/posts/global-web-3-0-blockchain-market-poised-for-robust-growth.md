@@ -4,7 +4,7 @@ description: The future of Web 3.0
 date: 2022-04-21T16:29:48.731Z
 categories:
   - uncategorized
-reading_time: 5
+reading_time: 3
 image: /static/img/web.-3.0.jpg
 ---
 A [new report from Advance Market Analytics](https://www.advancemarketanalytics.com/reports/193051-global-web-30-blockchain-market) provides powerful insight into the future of the Global Web 3.0 Blockchain market, predicting that many of its advantages – such as anti-monopoly, better privacy, a secure network, data ownership, and interoperability – are expected to drive the market in the coming years.
