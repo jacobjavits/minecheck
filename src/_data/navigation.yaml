@@ -1,6 +1,4 @@
 items:
-  - text: Filecoin
-    url: /filecoin
   - text: Software
     url: /software
   - text: Storage
