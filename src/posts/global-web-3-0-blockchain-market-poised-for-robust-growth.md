@@ -3,7 +3,7 @@ title: Global Web 3.0 Blockchain Market Poised for Robust Growth
 description: The future of Web 3.0
 date: 2022-04-21T16:29:48.731Z
 categories:
-  - uncategorized
+  - crypto
 reading_time: 3
 image: /static/img/web.-3.0.jpg
 ---
