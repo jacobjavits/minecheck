@@ -3,7 +3,7 @@ title: 4 Applications of Blockchain Technology You Might Not Know About
 description: Blockchain Technology
 date: 2022-06-30T16:12:35.817Z
 categories:
-  - uncategorized
+  - Blockchain
 reading_time: 5
 image: /static/img/blockchain-technology.jpg
 ---
