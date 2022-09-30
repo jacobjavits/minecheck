@@ -7,7 +7,7 @@ description: >
 date: 2022-08-30T13:15:21.483Z
 categories:
   - PR
-reading_time: 1
+reading_time: 8
 image: /static/img/minecheck.jpg
 ---
 Cryptocurrency miners are no stranger to adversity. From enduring criticism for pursuing what was labeled as a “passing fad” in its infancy, to being forced to find a new home after [China’s ban](https://www.coindesk.com/learn/china-crypto-bans-a-complete-history/) in 2021, to getting caught in the middle of a [political crisis in Kazakhstan](https://www.coindesk.com/business/2022/01/06/kazakhstans-hashrate-drops-as-internet-blackout-persists-amid-nationwide-protests/) earlier this year, they have proven time and again that they are nothing if not resilient – and will continue to find ways to innovate.
