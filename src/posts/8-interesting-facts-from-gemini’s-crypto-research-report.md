@@ -4,7 +4,7 @@ description: Gemini's Crypto Research Report
 date: 2022-07-28T12:44:16.146Z
 categories:
   - crypto
-reading_time: 1
+reading_time: 4
 image: /static/img/digital-currency-adoption.png
 ---
 Did you know that Brazil and Indonesia lead the world in crypto adoption, followed by the United Arab Emirates and Singapore? 
