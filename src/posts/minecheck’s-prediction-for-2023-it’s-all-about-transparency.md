@@ -5,7 +5,7 @@ date: 2022-12-30T12:14:55.628Z
 categories:
   - Crypto
 reading_time: 5
-image: /static/img/2023.jpg
+image: /static/img/2023-let-s-roll.png
 ---
 It’s no secret that 2022 was a tough year for cryptocurrency. Markets have fallen over 50 percent from their peak in 2021. Projects like Terra imploded. CeFi companies including Celsius Network and Voyager Digital filed for bankruptcy. And crypto exchange FTX collapsed. 
 
