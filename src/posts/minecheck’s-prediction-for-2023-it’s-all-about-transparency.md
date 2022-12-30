@@ -13,7 +13,7 @@ None of this has been good for crypto, and many are questioning where the market
 
 In fact, in 2023 and beyond, [Minecheck CEO Kyle Sidles](https://www.minecheck.com/posts/crypto-expert-builds-mining-software-to-support-mining-operations/) believes cryptocurrency will continue to bring to light some of the fundamental issues of our current financial system.
 
-“The initial reaction from the general republic around the SBF and FTX predicament was that this is centered around crypto and it’s crypto’s fault,” said Sidles. “When in reality, all of it comes down to corruption based on legacy systems that have operated that way for as long as I can remember.”
+“The initial reaction from the general public around the SBF and FTX predicament was that this is centered around crypto and it’s crypto’s fault,” said Sidles. “When in reality, all of it comes down to corruption based on legacy systems that have operated that way for as long as I can remember.”
 
 **Crypto Will Continue to Provide Increased Transparency**
 
