@@ -4,7 +4,7 @@ description: Effective Leadership in the 21st Century
 date: 2023-01-16T17:17:38.828Z
 categories:
   - Leadership
-reading_time: 1
+reading_time: 8
 image: /static/img/leadership.png
 ---
 The U.S. is facing a leadership crisis. According to [recent data](https://www.apollotechnical.com/leadership-statistics/), more than 77 percent of organizations in the U.S. report that leadership is lacking. Another 84 percent fear this gap will persist in the next five years. And a staggering 71 percent do not trust their leaders’ capability to take their organization to the next level.
