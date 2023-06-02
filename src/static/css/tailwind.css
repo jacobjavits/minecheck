@@ -205,3 +205,25 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-blue;
 }
+
+/* About */
+.our-values img {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-values p {
+  position: relative;
+  display: list-item;
+  list-style: "\2022";
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .our-values img {
+    flex: 0 1 100px;
+    transform: translateY(-30%);
+  }
+}

@@ -58,7 +58,11 @@ module.exports = {
         pickaxe: "url('/static/img/pick-axe.jpg')",
         constellations: "url('/static/img/constellations-bg.jpg')",
         servers: "url('/static/img/server-bg.jpg')",
+        servers_2: "url('/static/img/server-2-bg.jpg')",
         logo_outline: "url('/static/img/minecheck-outline-faded.svg')",
+        head: "url('/static/img/head-bg.jpg')",
+        puzzle: "url('/static/img/puzzle-bg.jpg')",
+        cloud: "url('/static/img/cloud-bg.jpg')",
       }),
       backgroundSize: {
         '30%': '30%',

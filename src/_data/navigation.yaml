@@ -1,11 +1,9 @@
 items:
   - text: Software
     url: /software
-  - text: Storage
-    url: /storage
   - text: Blog
     url: /blog
-  - text: About
+  - text: Who We Are
     url: /about
   - text: Contact Us
     url: /contact
