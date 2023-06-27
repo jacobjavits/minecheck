@@ -5,7 +5,7 @@ description: Artificial Intelligence & The Technology Behind ChatGPT
 date: 2023-06-27T18:09:24.854Z
 categories:
   - AI
-reading_time: 8
+reading_time: 6
 image: /static/img/the-technology-behind-chatgpt.png
 ---
 ChatGPT, the conversational artificial intelligence (AI) developed by OpenAI and backed by Microsoft, has caused a simultaneous flurry of excitement and trepidation since its release last November. Amassing 1 million users in its first five days, it reached 100 million active users two months after its launch, setting a record for the fastest user growth in a web platform. 
