@@ -33,7 +33,7 @@ image: /static/img/puzzle-bg.jpg
           {% image "./src/static/img/icon-empathy.png", "", "50px" %}
           <div class="flex-1">
             <h3 class="lg:flex align-middle text-lg text-white">We lead with empathy, compassion & self-awareness</h3>
-            <p class="text-gray font-display md:mt-auto lg:mt-0">We believe that integrity, empathy, compassion and self-awareness are not only vital to personal growth and development, but crucial to the success success of all professional business endeavors.</p>
+            <p class="text-gray font-display md:mt-auto lg:mt-0">We believe that integrity, empathy, compassion and self-awareness are not only vital to personal growth and development, but crucial to the success of all professional business endeavors.</p>
           </div>
         </div>
       </div>
@@ -90,15 +90,15 @@ image: /static/img/puzzle-bg.jpg
     <div class="md:grid md:grid-cols-2 gap-16 lg:max-w-5xl">
       <!-- KYLE -->
       <div class="mb-6 md:mb-0" x-data="{ openKyle: false }">
-        <div class="flex flex-col-reverse sm:flex-row-reverse items-center justify-center md:justify-end mb-8 md:mb-0">
-          <div>
+        <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
+          <div class="order-2">
             <h3 class="text-white mb-1">Kyle Sidles</h3>
             <p class="text-gray mb-6 font-display">Co-founder & CEO</p>
             <button class="block cursor-pointer" @click="openKyle = true">
               <p class="text-accent text-xl"><span x-text="openKyle ? 'Close' : 'Read'"></span> biography</p>
             </button>
           </div>
-          <div class="relative sm:mr-6 lg:mr-12">
+          <div class="relative sm:mr-6 lg:mr-14 order-1">
             <a class="absolute top-2 right-2"
               href="https://www.linkedin.com/in/kylesidles?trk=people-guest_people_search-card" target="_blank">
               <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -113,7 +113,7 @@ image: /static/img/puzzle-bg.jpg
                   </clipPath>
                 </defs>
               </svg></a>
-            {% image "./src/static/img/kyle-sidles.jpg", "" %}
+              <img src="/static/img/kyle-sidles.jpg" alt="" width="172" />
           </div>
         </div>
         <div class="text-white lg:py-6 bg-blue-light" x-show="openKyle" @click.away="openKyle = false"
@@ -132,15 +132,15 @@ image: /static/img/puzzle-bg.jpg
       <!-- END KYLE -->
       <!-- DARTON -->
       <div class="mb-6 md:mb-0" x-data="{ openDarton: false }">
-        <div class="flex flex-col-reverse sm:flex-row-reverse items-center justify-center md:justify-end mb-8 md:mb-0">
-          <div>
+        <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
+          <div class="order-2">
             <h3 class="text-white mb-1">Darton Rose</h3>
             <p class="text-gray mb-6 font-display">Co-founder & COO</p>
             <button class="block cursor-pointer" @click="openDarton = true">
               <p class="text-accent text-xl"><span x-text="openDarton ? 'Close' : 'Read'"></span> biography</p>
             </button>
           </div>
-          <div class="relative sm:mr-6 lg:mr-12">
+          <div class="relative sm:mr-6 lg:mr-14 order-1">
             <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/darton-rose-68609b7/" target="_blank">
               <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                 <circle cx="16" cy="16" r="16" fill="#0094FF" />
@@ -154,7 +154,7 @@ image: /static/img/puzzle-bg.jpg
                   </clipPath>
                 </defs>
               </svg></a>
-            {% image "./src/static/img/darton-rose.jpg", "" %}
+              <img src="/static/img/darton-rose.jpg" alt="" width="172" />
           </div>
         </div>
         <div class="text-white lg:py-6 bg-blue-light" x-show="openDarton" @click.away="openDarton = false"
@@ -174,15 +174,15 @@ image: /static/img/puzzle-bg.jpg
       <!-- END DARTON -->
       <!-- KATIE -->
       <div class="mb-6 md:mb-0" x-data="{ openKatie: false }">
-        <div class="flex flex-col-reverse sm:flex-row-reverse items-center justify-center md:justify-end mb-8 md:mb-0">
-          <div>
+        <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
+          <div class="order-2">
             <h3 class="text-white mb-1">Katie Rose</h3>
             <p class="text-gray mb-6 font-display">CMO</p>
             <button class="block cursor-pointer" @click="openKatie = true">
               <p class="text-accent text-xl"><span x-text="openKatie ? 'Close' : 'Read'"></span> biography</p>
             </button>
           </div>
-          <div class="relative sm:mr-6 lg:mr-12">
+          <div class="relative sm:mr-6 lg:mr-14 order-1">
             <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/katie-rose-6147184b/" target="_blank">
               <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                 <circle cx="16" cy="16" r="16" fill="#0094FF" />
@@ -196,7 +196,7 @@ image: /static/img/puzzle-bg.jpg
                   </clipPath>
                 </defs>
               </svg></a>
-              {% image "./src/static/img/katie-rose.jpg", "" %}
+              <img src="/static/img/katie-rose.jpg" alt="" width="172" />
           </div>
         </div>
         <div class="text-white lg:py-6 bg-blue-light" x-show="openKatie" @click.away="openKatie = false"
@@ -218,15 +218,15 @@ image: /static/img/puzzle-bg.jpg
       <!-- KEVIN -->
       <div class="mb-6 md:mb-0" x-data="{ openKevin: false }">
         <div
-          class="flex flex-col-reverse sm:flex-row-reverse items-center justify-center md:justify-end mb-8 md:mb-0 relative">
-          <div>
+          class="flex8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid relative">
+          <div class="order-2">
             <h3 class="text-white mb-1">Kevin Abood</h3>
             <p class="text-gray mb-6 font-display">Lead Advisor</p>
             <button class="block cursor-pointer" @click="openKevin = true">
               <p class="text-accent text-xl"><span x-text="openKevin ? 'Close' : 'Read'"></span> biography</p>
             </button>
           </div>
-          <div class="relative sm:mr-6 lg:mr-12">
+          <div class="relative sm:mr-6 lg:mr-14 order-1">
             <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/kevin-abood-6a3aaa10/" target="_blank">
               <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                 <circle cx="16" cy="16" r="16" fill="#0094FF" />
@@ -240,7 +240,7 @@ image: /static/img/puzzle-bg.jpg
                   </clipPath>
                 </defs>
               </svg></a>
-            {% image "./src/static/img/kevin-abood.jpg", "" %}
+              <img src="/static/img/kevin-abood.jpg" alt="" width="172" />
           </div>
         </div>
         <div class="text-white lg:py-6 bg-blue-light" x-show="openKevin" @click.away="openKevin = false"
