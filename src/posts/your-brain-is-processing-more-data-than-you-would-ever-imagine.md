@@ -1,5 +1,5 @@
 ---
-title: Your brain is processing more data than you would ever imagine
+title: Your Brain is Processing More Data Than You Would Ever Imagine
 description: Data processing and the human brain
 date: 2023-08-29T12:24:57.479Z
 categories:
