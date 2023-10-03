@@ -15,19 +15,19 @@ HPC’s speed and power simplify a range of low-tech to high-tech tasks in a wid
 
 Below are three more ways high-performance computing systems are being used across industries.
 
- **1.Healthcare** 
+ **1. Healthcare** 
 
 Our healthcare system contains massive amounts of data. HPC is helping scale and manage this data, particularly in healthcare computing operations. For instance, Hewlett Packard Enterprise hosts various hardware and software products for HPC deployment and performance, as well as AI-integrated solutions and consulting services. The company’s HPC technology allows professionals to process data in near real-time and receive insights for diagnoses, clinical trials, or immediate intervention.
 
 HPC is even being used to refine cancer research and treatment. In a 2017 project at the University of Texas at Austin, researchers scanned petabytes of data for correlations between a cancer patient’s genome and the composition of their tumors. They’ve now using HPC to characterize and treat prostate, blood-related, liver and skin cancers. 
 
- **2.Engineering** 
+ **2. Engineering** 
 
 Successful engineering depends on testing multiple prototypes, which can be expensive and sometimes dangerous. Engineers are using HPC systems to test new designs in massive computer simulations that mimic the real world with gravity, heat, wind, etc. These simulations allow engineers to simulate crash tests in the automotive industry, test the functionality of airplane parts, streamline racing bike frames, etc. 
 
 For instance, Trek Bicycles uses Rescale’s HPC platform to optimize the aerodynamics of its bikes. By running a simulation through Rescale’s interface, it can explore how bikes performed in drafting formations. Using two terabytes of on-demand computing power from Rescale, Trek has been able to quickly evaluate bike performance from multiple angles. 
 
- **3.Aerospace** 
+ **3. Aerospace** 
 
 When it comes to space exploration, it takes a lot of resources and technological savvy to gather data that can provide us with answers. This is where HPC comes in: models that are rooted in HPC can help process the information gleaned by probes and satellites. 
 
