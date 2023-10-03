@@ -19,25 +19,25 @@ But the result is the same: organizations are losing a lot of money to cloud com
 
 As a result, more and more companies are beginning to explore alternatives to cloud computing to help reduce costs while maintaining greater flexibility and scalability. With that in mind, here are 4 alternatives worth considering: 
 
- **1.Hybrid** 
+ **1. Hybrid** 
 
 A “hybrid” cloud approach connects a company’s on-premise private cloud services and third-party public cloud services into a single, flexible infrastructure. In other words, a public cloud is combined with a physical data center, allowing for sending and receiving of data and applications between cloud and on-premise data centers. 
 
 Many companies have already adopted this model, reporting greater security, scalability, compliance, and reduced closets. In fact, [82 percent](https://governmenttechnologyinsider.com/hybrid-cloud-adoption-why-2022-is-the-year-to-make-the-switch/) of IT leaders moved to a hybrid approach last year, deeming it the “year of the hybrid cloud.” 
 
- **2.Multi-cloud**
+ **2. Multi-cloud**
 
 Multi-cloud takes things a step further by allowing organizations to use two or more clouds from different cloud providers. Organizations can choose cloud services from different cloud providers based on a combination of pricing, performance, security and compliance requirements, geographical location, etc. Similarly, a multi-cloud approach provides the ability to rapidly adopt “best of breed” technologies from any vendor – as needed or as they emerge – rather than limiting customers to whatever offerings or functionality a single vendor offers at a given time. In this way, it can help prevent vendor lock-in or becoming too tied to one particular ecosystem, such as AWS, Google or Azure.
 
 Businesses that have adopted a multi-cloud approach have reported strategic benefits for their organization, noting greater flexibility, reliability, and reduced costs. An [analysis](https://www.gartner.com/en/newsroom/press-releases/2021-04-21-gartner-forecasts-worldwide-public-cloud-end-user-spending-to-grow-23-percent-in-2021) from Gartner found that moving to a consistent multi-cloud environment is roughly 34% less expensive than a move that would lock businesses into the platforms of major cloud providers.
 
- **3.Edge computing**
+ **3. Edge computing**
 
 While cloud computing is about processing data in a far-removed data center or public cloud, [edge computing](https://www.minecheck.com/posts/what-is-edge-computing/) is data analysis that takes place at its point of origin in real-time. In other words, it’s the processing of data at the “edge” of the network, closer to where the data is actually being created. 
 
 With cloud-based services, many businesses are facing a variety of challenges, such as bandwidth limitations, latency issues, and disruption in internet connectivity. Since edge computing involves processing data locally rather than in the cloud, it can offer a number of benefits, such as reduced latency, improved security, increased uptime, and overall enhanced efficiency. It can also be more cost effective than traditional cloud-based solutions. 
 
- **4.Micro data centers**
+ **4. Micro data centers**
 
 [Micro data centers](https://www.minecheck.com/posts/micro-data-centers-the-future-of-computing/) are what they sound like: smaller versions of a traditional data center operation. They still have features found in traditional data centers, such as cooling systems, security, humidity sensors, and a continuous power source — just on a much smaller scale. 
 
