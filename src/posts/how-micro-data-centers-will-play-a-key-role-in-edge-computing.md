@@ -3,7 +3,7 @@ title: "How Micro Data Centers will play a key role in Edge Computing "
 description: "Micro data centers and the future of compute "
 date: 2023-10-18T12:39:54.630Z
 categories:
-  - compute
+  - computing
 reading_time: 1
 image: /static/img/edge-computing.jpg
 ---
