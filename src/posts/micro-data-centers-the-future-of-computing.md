@@ -51,4 +51,4 @@ Gartner estimates that [75 percent](https://www.gartner.com/smarterwithgartner/w
 
 Another report estimates that the [global micro data center market](https://www.globenewswire.com/news-release/2023/07/17/2705440/0/en/Mini-Data-Centers-Global-Market-to-Reach-14-2-Billion-by-2030-Increasing-Concerns-for-Minimizing-Pollution-Levels-Fuel-Demand-for-Sustainable-Data-Centers.html) – which was estimated at $4.7 billion in 2022 – will reach $14.2 billion by 2030, growing at a compound annual growth rate of nearly 15 percent from 2022-2030. 
 
-The rise of 5G in particular makes it likely that many companies will need the processing resources of micro data centers. Given that micro data centers don’t require specialized buildings and can be installed anywhere, we’re soon likely to find ourselves surrounded by them on main street USA and around the world..
+The rise of 5G in particular makes it likely that many companies will need the processing resources of micro data centers. Given that micro data centers don’t require specialized buildings and can be installed anywhere, we’re soon likely to find ourselves surrounded by them on main street USA and around the world.
