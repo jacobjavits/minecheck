@@ -7,7 +7,6 @@ path: about
 tags: page
 image: /static/img/puzzle-bg.jpg
 ---
-
 <section class="bg-puzzle bg-top bg-cover bg-no-repeat w-full">
   <div class="bg-blue bg-opacity-50 md:bg-opacity-0 mx-auto flex flex-col justify-center items-start px-6 py-36 xl:pt-80 xl:pb-80">
     <div class="container">
@@ -135,7 +134,7 @@ image: /static/img/puzzle-bg.jpg
         <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
           <div class="order-2">
             <h3 class="text-white mb-1">Darton Rose</h3>
-            <p class="text-gray mb-6 font-display">Co-founder & COO</p>
+            <p class="text-gray mb-6 font-display">Co-founder </p>
             <button class="block cursor-pointer" @click="openDarton = true">
               <p class="text-accent text-xl"><span x-text="openDarton ? 'Close' : 'Read'"></span> biography</p>
             </button>
@@ -166,103 +165,106 @@ image: /static/img/puzzle-bg.jpg
             business development has provided him with unique insights into the business opportunities in our
             technologically integrated, data-driven world.</p>
 
-          <p>Darton is actively involved in all of the company’s client accounts, in addition to fostering a strong
-            company culture.
-          </p>
-        </div>
-      </div>
-      <!-- END DARTON -->
-      <!-- KATIE -->
-      <div class="mb-6 md:mb-0" x-data="{ openKatie: false }">
-        <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
-          <div class="order-2">
-            <h3 class="text-white mb-1">Katie Rose</h3>
-            <p class="text-gray mb-6 font-display">CMO</p>
-            <button class="block cursor-pointer" @click="openKatie = true">
-              <p class="text-accent text-xl"><span x-text="openKatie ? 'Close' : 'Read'"></span> biography</p>
-            </button>
-          </div>
-          <div class="relative sm:mr-6 lg:mr-14 order-1">
-            <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/katie-rose-6147184b/" target="_blank">
-              <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                <circle cx="16" cy="16" r="16" fill="#0094FF" />
-                <g clip-path="url(#clip0)" fill="#fff">
-                  <path
-                    d="M22.996 22H23v-5.135c0-2.512-.541-4.447-3.477-4.447-1.412 0-2.36.775-2.746 1.51h-.041v-1.275h-2.784V22h2.899V17.37c0-1.218.23-2.397 1.74-2.397 1.487 0 1.509 1.391 1.509 2.476V22h2.896zM9.231 12.653h2.903V22H9.23v-9.347zM10.681 8C9.753 8 9 8.753 9 9.681s.753 1.697 1.681 1.697 1.681-.769 1.681-1.697S11.61 8 10.682 8z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0">
-                    <path fill="#fff" transform="translate(9 8)" d="M0 0h14v14H0z" />
-                  </clipPath>
-                </defs>
-              </svg></a>
-              <img src="/static/img/katie-rose.jpg" alt="" width="172" />
-          </div>
-        </div>
-        <div class="text-white lg:py-6 bg-blue-light" x-show="openKatie" @click.away="openKatie = false"
-          x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90"
-          x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300"
-          x-transition:leave-start="opacity-100 transform scale-100"
-          x-transition:leave-end="opacity-0 transform scale-90">
-          <p class="mb-3">With over 10 years of experience in web, print and digital marketing, Katie excels at bringing
-            a nuanced understanding of effective digital marketing, social media marketing and traditional marketing
-            strategies.</p>
-
-          <p>Katie earned her Bachelors in Communications from Stonehill College in Easton, Massachusetts, her Masters
-            degree in Marketing from Southern New Hampshire University, and a graduate-level Social Media Certificate
-            from Southern New Hampshire University. </p>
-          </p>
-        </div>
-      </div>
-      <!-- END KATIE -->
-      <!-- KEVIN -->
-      <div class="mb-6 md:mb-0" x-data="{ openKevin: false }">
-        <div
-          class="flex8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid relative">
-          <div class="order-2">
-            <h3 class="text-white mb-1">Kevin Abood</h3>
-            <p class="text-gray mb-6 font-display">Lead Advisor</p>
-            <button class="block cursor-pointer" @click="openKevin = true">
-              <p class="text-accent text-xl"><span x-text="openKevin ? 'Close' : 'Read'"></span> biography</p>
-            </button>
-          </div>
-          <div class="relative sm:mr-6 lg:mr-14 order-1">
-            <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/kevin-abood-6a3aaa10/" target="_blank">
-              <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                <circle cx="16" cy="16" r="16" fill="#0094FF" />
-                <g clip-path="url(#clip0)" fill="#fff">
-                  <path
-                    d="M22.996 22H23v-5.135c0-2.512-.541-4.447-3.477-4.447-1.412 0-2.36.775-2.746 1.51h-.041v-1.275h-2.784V22h2.899V17.37c0-1.218.23-2.397 1.74-2.397 1.487 0 1.509 1.391 1.509 2.476V22h2.896zM9.231 12.653h2.903V22H9.23v-9.347zM10.681 8C9.753 8 9 8.753 9 9.681s.753 1.697 1.681 1.697 1.681-.769 1.681-1.697S11.61 8 10.682 8z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0">
-                    <path fill="#fff" transform="translate(9 8)" d="M0 0h14v14H0z" />
-                  </clipPath>
-                </defs>
-              </svg></a>
-              <img src="/static/img/kevin-abood.jpg" alt="" width="172" />
-          </div>
-        </div>
-        <div class="text-white lg:py-6 bg-blue-light" x-show="openKevin" @click.away="openKevin = false"
-          x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90"
-          x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300"
-          x-transition:leave-start="opacity-100 transform scale-100"
-          x-transition:leave-end="opacity-0 transform scale-90">
-          <p class="mb-3">Kevin joins Minecheck as a strategic advisor with over 15 years’ experience in software as a
-            service go
-            to market execution.</p>
-
-          <p class="mb-3">With a strong strategic experience in SaaS-based monitoring services, he brings a unique depth
-            of
-            knowledge to help accelerate Minechecks penetration into the market.</p>
-
-          <p>Kevin calls New Hampshire home and continues to focus on building and supporting the local tech-startup
-            community.</p>
-          </p>
-        </div>
-      </div>
-      <!-- END KEVIN -->
+```
+      <p>Darton is involved in all of the company’s client accounts, in addition to fostering a strong
+        company culture.
+      </p>
     </div>
+  </div>
+  <!-- END DARTON -->
+  <!-- KATIE -->
+  <div class="mb-6 md:mb-0" x-data="{ openKatie: false }">
+    <div class="mb-8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid">
+      <div class="order-2">
+        <h3 class="text-white mb-1">Katie Rose</h3>
+        <p class="text-gray mb-6 font-display">CMO</p>
+        <button class="block cursor-pointer" @click="openKatie = true">
+          <p class="text-accent text-xl"><span x-text="openKatie ? 'Close' : 'Read'"></span> biography</p>
+        </button>
+      </div>
+      <div class="relative sm:mr-6 lg:mr-14 order-1">
+        <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/katie-rose-6147184b/" target="_blank">
+          <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="16" fill="#0094FF" />
+            <g clip-path="url(#clip0)" fill="#fff">
+              <path
+                d="M22.996 22H23v-5.135c0-2.512-.541-4.447-3.477-4.447-1.412 0-2.36.775-2.746 1.51h-.041v-1.275h-2.784V22h2.899V17.37c0-1.218.23-2.397 1.74-2.397 1.487 0 1.509 1.391 1.509 2.476V22h2.896zM9.231 12.653h2.903V22H9.23v-9.347zM10.681 8C9.753 8 9 8.753 9 9.681s.753 1.697 1.681 1.697 1.681-.769 1.681-1.697S11.61 8 10.682 8z" />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <path fill="#fff" transform="translate(9 8)" d="M0 0h14v14H0z" />
+              </clipPath>
+            </defs>
+          </svg></a>
+          <img src="/static/img/katie-rose.jpg" alt="" width="172" />
+      </div>
+    </div>
+    <div class="text-white lg:py-6 bg-blue-light" x-show="openKatie" @click.away="openKatie = false"
+      x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90"
+      x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300"
+      x-transition:leave-start="opacity-100 transform scale-100"
+      x-transition:leave-end="opacity-0 transform scale-90">
+      <p class="mb-3">With over 10 years of experience in web, print and digital marketing, Katie excels at bringing
+        a nuanced understanding of effective digital marketing, social media marketing and traditional marketing
+        strategies.</p>
+
+      <p>Katie earned her Bachelors in Communications from Stonehill College in Easton, Massachusetts, her Masters
+        degree in Marketing from Southern New Hampshire University, and a graduate-level Social Media Certificate
+        from Southern New Hampshire University. </p>
+      </p>
+    </div>
+  </div>
+  <!-- END KATIE -->
+  <!-- KEVIN -->
+  <div class="mb-6 md:mb-0" x-data="{ openKevin: false }">
+    <div
+      class="flex8 md:mb-0 flex flex-col items-center sm:grid-cols-2 sm:grid relative">
+      <div class="order-2">
+        <h3 class="text-white mb-1">Kevin Abood</h3>
+        <p class="text-gray mb-6 font-display">Lead Advisor</p>
+        <button class="block cursor-pointer" @click="openKevin = true">
+          <p class="text-accent text-xl"><span x-text="openKevin ? 'Close' : 'Read'"></span> biography</p>
+        </button>
+      </div>
+      <div class="relative sm:mr-6 lg:mr-14 order-1">
+        <a class="absolute top-2 right-2" href="https://www.linkedin.com/in/kevin-abood-6a3aaa10/" target="_blank">
+          <svg width="32" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="16" fill="#0094FF" />
+            <g clip-path="url(#clip0)" fill="#fff">
+              <path
+                d="M22.996 22H23v-5.135c0-2.512-.541-4.447-3.477-4.447-1.412 0-2.36.775-2.746 1.51h-.041v-1.275h-2.784V22h2.899V17.37c0-1.218.23-2.397 1.74-2.397 1.487 0 1.509 1.391 1.509 2.476V22h2.896zM9.231 12.653h2.903V22H9.23v-9.347zM10.681 8C9.753 8 9 8.753 9 9.681s.753 1.697 1.681 1.697 1.681-.769 1.681-1.697S11.61 8 10.682 8z" />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <path fill="#fff" transform="translate(9 8)" d="M0 0h14v14H0z" />
+              </clipPath>
+            </defs>
+          </svg></a>
+          <img src="/static/img/kevin-abood.jpg" alt="" width="172" />
+      </div>
+    </div>
+    <div class="text-white lg:py-6 bg-blue-light" x-show="openKevin" @click.away="openKevin = false"
+      x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90"
+      x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300"
+      x-transition:leave-start="opacity-100 transform scale-100"
+      x-transition:leave-end="opacity-0 transform scale-90">
+      <p class="mb-3">Kevin joins Minecheck as a strategic advisor with over 15 years’ experience in software as a
+        service go
+        to market execution.</p>
+
+      <p class="mb-3">With a strong strategic experience in SaaS-based monitoring services, he brings a unique depth
+        of
+        knowledge to help accelerate Minechecks penetration into the market.</p>
+
+      <p>Kevin calls New Hampshire home and continues to focus on building and supporting the local tech-startup
+        community.</p>
+      </p>
+    </div>
+  </div>
+  <!-- END KEVIN -->
+</div>
+```
+
   </div>
 </section>
 
