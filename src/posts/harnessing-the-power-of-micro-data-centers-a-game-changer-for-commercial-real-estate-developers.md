@@ -4,7 +4,7 @@ title: "Harnessing the Power of Micro Data Centers: A Game-Changer for
 description: "Micro Data Centers & Commercial Real Estate "
 date: 2024-04-03T20:23:28.366Z
 categories:
-  - compute
+  - computing
 reading_time: 5
 image: /static/img/micro-data-centers.jpg
 ---
