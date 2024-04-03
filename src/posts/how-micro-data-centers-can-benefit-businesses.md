@@ -5,7 +5,7 @@ date: 2023-11-01T15:50:33.264Z
 categories:
   - Computing
 reading_time: 5
-image: /static/img/micro-data-centers.jpg
+image: /static/img/micro-data-centers.webp
 ---
 As businesses are relying more and more on data for their day-to-day operations, the question of where they should store it continues to evolve. While [cloud computing](https://www.minecheck.com/posts/the-past-present-and-future-of-cloud-computing/) was once a cheaper and more efficient way for businesses to operate, it is no longer able to support the [exponential increase in data](https://www.minecheck.com/posts/your-brain-is-processing-more-data-than-you-would-ever-imagine/) that’s being generated. 
 
